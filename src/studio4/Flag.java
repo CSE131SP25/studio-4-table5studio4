@@ -16,5 +16,10 @@ public class Flag {
 		StdDraw.filledCircle(0.3,0.5,0.1);
 		StdDraw.filledCircle(0.7,0.5,0.1);
 		
+		StdDraw.setPenColor(250,250,250);
+		double[] x = { 0.3, 0.5, 0.7};
+		double[] y = { 0.3, 0.5, 0.3};
+		StdDraw.filledPolygon(x, y);
+		
 	}
 }
